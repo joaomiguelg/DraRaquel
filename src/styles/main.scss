@@ -1,0 +1,88 @@
+@use 'vars';
+@use 'hero';
+@use 'about';
+@use 'services';
+@use 'footer';
+@use 'contato';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    list-style: none;
+}
+
+header {
+
+    background-color: #DDE9E9;
+
+    .header-container {
+
+    width: 100%;
+    max-width:1280px;
+    margin: 0 auto;
+    padding: 5vh 0;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    }
+
+    .menu {
+
+        text-transform: uppercase;
+    
+        ul {
+    
+            gap: 3.5em !important;
+    
+        }
+    
+        .nav-link {
+            
+            color: #3f3f3f;
+    
+            &.active {
+    
+                font-weight: 400 !important;
+                color: vars.$primaryColor !important;
+    
+            }
+    
+            &:hover {
+    
+                color: vars.$primaryColor;
+    
+            }
+        }
+    
+    }
+
+
+    .social-icons {
+    
+        display: flex;
+        gap: 2em;
+
+        margin: 0;
+        padding: 0;
+
+        li {
+
+            &:hover {
+                
+                    -moz-transform: scale(1.1);
+	                -webkit-transform: scale(1.1);
+	                transform: scale(1.1);
+                    transition: all 0.8s;
+            }
+
+        }
+    }
+   
+}
+
+

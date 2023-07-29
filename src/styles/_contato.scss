@@ -1,0 +1,47 @@
+.contato {
+
+    &-container {
+
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-top: 5em;
+    
+    }
+
+    &-texto {
+
+        display: flex;
+        flex-direction: column;
+       
+
+        ul {
+
+            padding: 0;
+
+        }
+
+    }
+
+}
+
+.maps {
+
+    width: 40%;
+
+}
+
+iframe {
+
+    
+    border-radius: 12px;
+    width: 100%;
+
+
+}
+
