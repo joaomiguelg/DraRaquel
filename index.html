@@ -18,71 +18,82 @@
 </head>
 
 <body>
-    <header id="cabecalho">
-        <div class="header-container">
-            <a href="">
-                <img src="src/images/Logo.svg" alt="Logo Dra. Raquel Negrão Motta">
+    <header class="navbar navbar-expand-lg pt-4 sticky-top" id="cabecalho">
+        <div class="container">
+            <a class="navbar-brand">
+                <img src="src/images/Logo.svg" alt="logo" id="logo">
             </a>
-
-            <nav class="menu">
-                <ul class="nav nav-underline">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-center" id="menu-nav">
+                <ul class="nav nav-underline d-block d-lg-flex gap-5">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link">
+                            Home
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre Nós</a>
+                        <a href="#about" class="nav-link">
+                            Sobre Nós
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Serviços</a>
+                        <a href="#services" class="nav-link">
+                            Serviços
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contato</a>
+                        <a href="#contact" class="nav-link">
+                            Contato
+                        </a>
                     </li>
                 </ul>
             </nav>
+            <div class="social-icons pt-2">
+                <ul class="d-flex gap-3">
+                    <li>
+                        <a href="">
+                            <img src="src/images/facebook icon.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="src/images/instagram-round_svgrepo.com.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="src/images/whatsapp-128_svgrepo.com.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
 
-            <ul class="social-icons">
-                <li>
-                    <a href="">
-                        <img src="dist/images/facebook icon.svg" alt="Facebook Icon">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="dist/images/instagram-round_svgrepo.com.svg" alt="Instagram Icon">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="dist/images/whatsapp-128_svgrepo.com.svg" alt="Whatsapp-icon">
-                    </a>
-                </li>
-            </ul>
+            </div>
         </div>
     </header>
+    
     <main data-bs-spy="scroll" data-bs-target="cabecalho">
         <section class="section-hero" id="home">
-            <div class="hero-container">
+            <div class="hero-container pt-5">
                 <div class="section-hero-text">
                     <div>
                         <h1>
                             Cuidando de você e do seu Sorriso!
                         </h1>
                         <p>
-                            Acreditamos que um sorriso saudável e bonito pode transformar vidas. Oferecemos uma ampla gama
-                            de serviços odontológicos, desde limpezas e exames de rotina até tratamentos estéticos
-                            avançados.
+                            Acreditamos que um sorriso saudável e bonito pode transformar vidas.
                         </p>
                     </div>
                     <button type="button">
                         Agende sua Consulta!
                     </button>
                 </div>
-                <img src="src/images/raquel1.svg" alt="">
+                    <div class="section-hero-img">
+                        <img src="src/images/raquel1.svg" alt="">
+                    </div>    
             </div>
         </section>
-    
-    
         <section class="cards-container" data-aos="fade-up">
             <div class="cards">
                 <img src="src/images/map-location_svgrepo.com.svg" alt="">
@@ -103,9 +114,6 @@
                     fugit minus in</p>
             </div>
         </section>
-    
-    
-    
         <section class="about" id="about">
             <div class="about-text">
                 <h2>Sobre Nós</h2>

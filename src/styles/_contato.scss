@@ -11,6 +11,10 @@
         align-items: center;
 
         padding-top: 5em;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
     
     }
 
@@ -33,6 +37,11 @@
 .maps {
 
     width: 40%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 2em;
+    }
 
 }
 

@@ -15,6 +15,14 @@
 
         padding-top: 5em;
 
+        @media (max-width:768px) {
+
+            flex-direction: column;
+            padding: 2em;
+            gap: 1em;
+
+        }
+
 
 
     }
@@ -37,6 +45,13 @@
         height: 160px;
 
         border-bottom: 3px solid vars.$primaryColor;
+
+        @media (max-width:768px) {
+
+            width: 100%;
+
+        }
+
 
         &:hover {
             -moz-transform: scale(1.1);
