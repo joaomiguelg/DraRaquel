@@ -8,9 +8,8 @@
 
     max-width: 1280px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 
-    padding-top: 5em;
 
     @media (max-width: 768px) {
 
@@ -65,9 +64,10 @@
 
     width: 100%;
     padding-top: 3em;
-    margin-top: 8vh;
 
     background: linear-gradient(180deg, rgba(219,233,233,1) 0%, rgba(255,255,255,1) 50%, rgba(221,233,233,1) 100%);
+
+    margin-top: 100px;
 
     &-container {
 
@@ -84,6 +84,12 @@
         @media (max-width: 768px) {
 
             flex-direction: column;
+
+            img {
+
+                width: 100%;
+
+            }
 
         }
 

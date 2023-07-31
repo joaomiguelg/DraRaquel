@@ -8,6 +8,8 @@
 
     width: 100%;
 
+    margin-bottom: 100px;
+
     .hero-container {
 
     display: flex;
@@ -37,7 +39,7 @@
         width: 60%;
 
         @media (max-width: 768px) {
-            gap: 0;
+            gap: 1em;
             position: absolute;
         }
 
@@ -83,7 +85,9 @@
             @media (max-width: 768px) {
                 width: 100%;
                 height: 40px;
-                margin-top: 64px;
+
+                margin-bottom: 12px;
+                
                 
             }
 
@@ -108,8 +112,8 @@
     img {
 
         @media (max-width: 768px) {
-            width: 236px;
-            margin-left: 150px;
+            width: 180px;
+            margin-left: 210px;
 
             
         }
@@ -132,9 +136,8 @@
 
     width: 100%;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 
-    padding-top: 5em;
 
     @media (max-width: 768px) {
 
