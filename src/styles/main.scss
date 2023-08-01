@@ -22,6 +22,13 @@ header {
     color: #3f3f3f;
     text-transform: uppercase;
 
+    @media (max-width: 768px ) {
+
+        text-align: center;
+        padding-top: 16px;
+
+    }
+
     &.active {
 
         font-weight: 400 !important;
@@ -34,6 +41,7 @@ header {
         color: vars.$primaryColor;
 
     }
+
 
 }
 
