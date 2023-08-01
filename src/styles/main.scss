@@ -13,6 +13,7 @@
     list-style: none;
 }
 
+
 header {
 
   background-color: #DBE9E9;
@@ -22,7 +23,7 @@ header {
     color: #3f3f3f;
     text-transform: uppercase;
 
-    @media (max-width: 768px ) {
+    @media (max-width: 820px ) {
 
         text-align: center;
         padding-top: 16px;
@@ -51,12 +52,38 @@ header {
 
 .social-icons {
 
+    li {
+
+        &:hover {
+    
+            transition: ease 0.3s;
+
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            transition: all 0.8s;
+        }
+
+    }
+
     @media (max-width:1279px) {
 
         display: none;
 
     }
 
+
+}
+
+@media (min-width: 820px) and (max-width: 1300px) {
+
+
+    .footer-container, .contato-container, .services-container, .about{
+
+        padding-right: 5vw;
+        padding-left: 5vw;
+
+    }
 
 }
 
