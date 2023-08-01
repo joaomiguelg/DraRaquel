@@ -6,7 +6,7 @@
 
         max-width: 1280px;
         width: 100%;
-        margin: 100px auto 0 auto;
+        margin: 0 auto;
 
         display: flex;
         flex-direction: row;
@@ -17,8 +17,8 @@
         @media (max-width:768px) {
 
             flex-direction: column;
-            padding: 2em;
-            gap: 1em;
+            padding: 10vh 4vw 0 4vw;
+            gap: 3vh;
 
         }
 

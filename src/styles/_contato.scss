@@ -4,7 +4,9 @@
 
         width: 100%;
         max-width: 1280px;
-        margin: 100px auto 0 auto;
+        margin: 0 auto;
+        padding: 10vh 4vw 0 4vw;
+        gap: 3vh;
 
         display: flex;
         justify-content: space-between;
@@ -38,7 +40,6 @@
 
     @media (max-width: 768px) {
         width: 100%;
-        padding: 2em;
     }
 
 }

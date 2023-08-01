@@ -20,13 +20,8 @@ margin-top: 5em;
     align-items: center;
     justify-content: space-between;
 
-    padding: 1em 0;
-
-    @media (max-width: 768px) {
-        padding: 2em;
-    }
-
-    margin: 100px auto 0 auto;
+    
+    margin: 10vh auto 0 auto;
 
     &-icons {
 
@@ -48,6 +43,15 @@ margin-top: 5em;
             color: #ffff;
             font-weight: 100;
         }
+
+        @media (max-width: 768px) {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
 
 
     }

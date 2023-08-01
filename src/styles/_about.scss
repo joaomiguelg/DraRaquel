@@ -8,14 +8,14 @@
 
     max-width: 1280px;
     width: 100%;
-    margin: 0 auto 100px auto;
+    margin: 0 auto;
 
 
     @media (max-width: 768px) {
 
         flex-direction: column;
-        padding: 2em;
-        gap: 1em;
+        padding: 10vh 4vw 0 4vw;
+        gap: 3vh;
 
     }
 
@@ -63,11 +63,10 @@
 .second-hero {
 
     width: 100%;
-    padding-top: 3em;
+    padding-top: 3vh;
+    margin-top: 10vh;
 
     background: linear-gradient(180deg, rgba(219,233,233,1) 0%, rgba(255,255,255,1) 50%, rgba(221,233,233,1) 100%);
-
-    margin-top: 100px;
 
     &-container {
 
